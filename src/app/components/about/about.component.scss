@@ -1,0 +1,45 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px
+}
+
+.introduction {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1;
+    word-break: break-word;
+}
+
+hr {
+    height: 4px;
+    background-color: var(--dark-blue);
+}
+
+.about {
+    display: flex;
+    padding: 60px 0;
+    flex-wrap: wrap;
+}
+
+.about-info {
+    flex: 2 1 355px;
+    margin: 10px 10px 10px 0px;
+}
+
+.about-info h1 {
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+
+.about-info p {
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: #353535;
+}
+
+.about-img {
+    flex: 1 1 160px;
+    margin: 10px 10px 10px 0px;
+}

@@ -1,0 +1,21 @@
+.super-info-bg {
+    background: var(--dark-blue);
+}
+
+.super-info {
+    color: #fff;
+    max-width: 960px;
+    margin: 0 auto !important;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.super-info {
+    padding: 0 10px 0 10px;
+}
+
+.super-info a {
+    text-decoration: none;
+    color: #fff;
+}
