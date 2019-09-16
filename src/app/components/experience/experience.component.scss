@@ -1,0 +1,46 @@
+.container-bg {
+  background: #f7f7f7;
+  padding: 5px
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-top: 8px solid var(--pink);
+  border-left: 2px solid var(--pink);
+  border-right: 2px solid var(--pink);
+  border-bottom: 2px solid var(--pink);
+}
+
+.experience-item {
+  flex-grow: 1;
+  flex-basis: 250px;
+  padding: 10px;
+  border: 2px solid #fff;
+  margin: 10px;
+}
+
+.experience-item p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: #353535;
+}
+
+.experience-title-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.experience-title {
+  margin-top: 0px;
+}
+
+.experience-date {
+  font-weight: 300;
+  margin-left: 15%;
+}

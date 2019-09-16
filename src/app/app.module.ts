@@ -6,6 +6,8 @@ import { SuperInfoComponent } from './components/super-info/super-info.component
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './components/about/about.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { HobbieComponent } from './components/hobbie/hobbie.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { SkillsComponent } from './components/skills/skills.component';
     SuperInfoComponent,
     NavbarComponent,
     AboutComponent,
-    SkillsComponent
+    SkillsComponent,
+    ExperienceComponent,
+    HobbieComponent
   ],
   imports: [
     BrowserModule

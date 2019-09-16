@@ -1,39 +1,35 @@
-.container {
-    padding: 0px 10px;
-}
-
 .skills-title {
-    font-size: 2em;
-    font-weight: bold;
-    line-height: 1;
-    word-break: break-word;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1;
+  word-break: break-word;
 }
 
 .skills-container {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .skill-item {
-    flex: 1 1 175px;
-    align-self: center;
-    margin: 10px 10px 10px 0px;
+  flex: 1 1 175px;
+  align-self: center;
+  margin: 10px 10px 10px 0px;
 }
 
 .skill-item h2 {
-    padding: 60px 20px;
-    background: #f7f7f7;
-    margin: 0;
+  padding: 60px 20px;
+  background: #f7f7f7;
+  margin: 0;
 }
 
 .angular {
-    border-top: 8px solid #C40030;
+  border-top: 8px solid #C40030;
 }
 
 .html {
-    border-top: 8px solid #e34f26;
+  border-top: 8px solid #e34f26;
 }
 
 .css {
-    border-top: 8px solid #264de4;
+  border-top: 8px solid #264de4;
 }

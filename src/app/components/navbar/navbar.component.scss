@@ -1,41 +1,37 @@
 .navbar-bg {
-    background: var(--pink);
+  background: var(--pink);
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.45);
 }
 
 .navbar {
-    color: rgb(54, 4, 4);
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 15px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+  color: rgb(54, 4, 4);
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
 .navbar-brand {
-    font-size: 2em;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 0 10px;
-}
-
-.navbar a {
-    color: rgba(255, 255, 255, 1);
-    text-decoration: none;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 10px;
 }
 
 .navbar-nav ul {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .navbar-nav a {
-    padding: 10px;
-    font-size: 1.25em;
+  padding: 10px;
+  font-size: 1.25em;
 }
 
 .navbar-nav a:hover {
-    color: rgba(0, 0, 0, 0.80);
+  color: rgba(0, 0, 0, 0.80);
 }
