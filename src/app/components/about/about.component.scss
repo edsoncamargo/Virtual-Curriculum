@@ -5,11 +5,6 @@
   word-break: break-word;
 }
 
-hr {
-  height: 4px;
-  background-color: var(--dark-blue);
-}
-
 .about {
   display: flex;
   padding: 60px 0;
@@ -34,7 +29,7 @@ hr {
 }
 
 .about-img {
-  flex: 1 1 160px;
+  flex: 1 1 200px;
   margin: 10px 10px 10px 0px;
 }
 
