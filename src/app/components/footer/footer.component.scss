@@ -1,0 +1,34 @@
+.footer {
+    background: var(--dark-blue);
+    color: #fff;
+}
+
+.footer-container {
+    max-width: 960px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px
+}
+
+.footer-item p {
+    margin: .3em !important;
+    text-align: center;
+}
+
+p a {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 50px;
+}
