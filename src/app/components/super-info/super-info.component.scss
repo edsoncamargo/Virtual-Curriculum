@@ -6,11 +6,24 @@
   color: #fff;
   max-width: 960px;
   margin: 0 auto !important;
+  padding: 0 10px 0 10px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  flex: 1 1 400px
 }
 
-.super-info {
-  padding: 0 10px 0 10px;
+.icon {
+  width: 12px;
+}
+
+a {
+  display: flex;
+  padding-right: 10px;
+  padding-left: 10px
+}
+
+.icon {
+  margin-right: 10px;
 }

@@ -37,3 +37,9 @@
 .css {
   border-top: 8px solid #264de4;
 }
+
+@media (max-width: 768px) {
+  .skill-item:nth-child(2) {
+    order: -1;
+  }
+}
