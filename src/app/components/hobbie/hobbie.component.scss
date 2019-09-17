@@ -6,12 +6,13 @@
 }
 
 .hobbie-item {
-  background: var(--dark-blue);
+  justify-self: flex-end;
   margin-right: 10px;
   margin-bottom: 10px;
 }
 
-.circle {
+.hobbie {
   width: 50px;
   height: 50px;
+  margin-top: 15px;
 }
