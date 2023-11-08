@@ -39,8 +39,8 @@ To view this virtual curriculum locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/edsoncamargo/WhoPaysTheBill
-   cd your-path/WhoPaysTheBill
+   git clone https://github.com/edsoncamargo/VirtualCurriculum
+   cd your-path/VirtualCurriculum
    ```
 
 2. Install the dependencies:
