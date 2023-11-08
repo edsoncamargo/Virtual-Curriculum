@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "flexbox"
+    }
+  },
+  "defaultProject": "flexbox",
+  "cli": {
+    "analytics": "745c2b35-9407-489d-915c-f53ac8f9195e"
+  }
 }
