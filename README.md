@@ -1,27 +1,73 @@
-# Flexbox
+# Virtual Curriculum
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
+![Virtual Curriculum Logo](./src/assets/images/icon.jpg)
 
-## Development server
+**Virtual Curriculum** is a personal website built with Angular, serving as a digital representation of my professional journey. This virtual curriculum showcases information about me, my skills, hobbies, experiences, and how to get in touch. The landing page also serves as an exercise in applying Flexbox layout techniques for creating a responsive and flexible web design.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Technology
 
-## Code scaffolding
+The following are the key technologies and tools used in the development of this app:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular**: A powerful front-end framework for building web applications.
+- **Flexbox**: Utilized to create flexible and responsive layouts.
+- **HTML/CSS**: Used for structuring and styling the page.
 
-## Build
+## About
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+In the "About Me" section, you'll find a comprehensive introduction that provides insights into my background, passions, goals, and what drives me professionally.
 
-## Running unit tests
+## Hobbies
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The "Hobbies" section offers a glimpse into my interests and favorite pastime activities. Discover what I do outside of work and how I maintain a work-life balance.
 
-## Running end-to-end tests
+## Contacts
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Feel free to reach out to me in the "Contacts" section. Whether you want to discuss a project, network, or simply connect, I'm always open to engaging with others in the professional world.
 
-## Further help
+## Skills
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The "Skills & Expertise" section highlights my key skills and areas of expertise. Explore the competencies I bring to the table and how they align with industry standards.
+
+## Work Experience
+
+In the "Work Experience" section, you'll find a detailed overview of my professional journey, work experiences, and notable projects. Learn about my career path and the contributions I've made along the way.
+
+## How to View My Virtual Curriculum
+
+To view this virtual curriculum locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/edsoncamargo/WhoPaysTheBill
+   cd your-path/WhoPaysTheBill
+   ```
+
+2. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   ng serve
+   ```
+
+4. Open your web browser and navigate to http://localhost:4200 to explore the virtual curriculum.
+
+## Contribution
+
+You are welcome to contribute to the development of this project. If you find bugs, wish to add new features, or improve usability, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT LECINSE](./LICENSE).
+
+## Contact
+
+- Name: Edson Camargo Menezes
+- Email: contact@edsoncamargo.dev
+
+Explore my virtual curriculum and discover my professional journey 🚀

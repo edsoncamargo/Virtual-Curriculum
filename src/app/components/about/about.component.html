@@ -1,26 +1,47 @@
-<div class="container">
-  <h1 class="introduction">DESENVOLVEDOR WEB</h1>
-  <hr class="divisor">
-  <section class="about" id="about">
-    <div class="about-info">
-      <h1>Sobre mim</h1>
-      <p>
-        Graduando em Sistemas de Informação (Centro Universitário Senac - Santo Amaro).
-      </p>
-      <p>
-        Trabalhando no Centro de Inovação e Tecnologia (Centro Universitário Senac - Santo Amaro) e atuando como
-        desenvolvedor web com Angular, Typescript, HTML, CSS e Spring Boot, mas com um pézinho a mais em
-        front-end. Conhecimentos básicos nos bancos de dados NoSQl Firebase Realtime Database e MySQL.
-      </p>
-      <app-hobbie class="hobbie"></app-hobbie>
+<section id="about" class="about container">
+  <h1 class="about__title">Web Developer</h1>
+
+  <section class="about__content" id="about">
+    <div class="about__content__info">
+      <div class="about__content__info__text">
+        <h1>About</h1>
+
+        <p>
+          Graduated in Bachelor of Information Systems (Centro Universitário
+          Senac - Santo Amaro). Postgraduate in Multiplatform Mobile Application
+          Projects (Descomplica Faculdade Digital).
+        </p>
+
+        <p>
+          Acting as a web developer creating landing pages, portals, websites
+          and libraries using JavaScript, TypeScript, HTML, CSS, SASS, Storybook
+          and Angular.
+        </p>
+      </div>
     </div>
-    <div class="about-img">
-      <img class="img-me" src="../../../assets/images/eu.jpg" alt="Edson Camargo Menezes">
-    </div>
-    <div class="about-img">
-      <img class="img-logo" src="../../../assets/images/logo.jpg" alt="Logo - HNT3 (Meu logo)">
+
+    <app-hobbie class="hobbie"></app-hobbie>
+
+    <div class="about__content__images">
+      <div class="about__content__img">
+        <img
+          class="about__content__img__me"
+          src="../../../assets/images/me.jpg"
+          alt="
+          Me with a Mexican hat and smiling"
+        />
+      </div>
+
+      <div class="about__content__img">
+        <img
+          class="about__content__img__logo"
+          src="../../../assets/images/icon.jpg"
+          alt="Icon - Edson Camargo Menezes"
+        />
+      </div>
     </div>
   </section>
+
+  <hr class="divisor" />
   <app-super-info></app-super-info>
-  <hr class="divisor">
-</div>
+</section>

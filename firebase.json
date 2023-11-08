@@ -1,10 +1,6 @@
 {
   "hosting": {
-    "public": "dist/flexbox",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
+    "public": "dist/virtualcurriculum",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
   }
 }

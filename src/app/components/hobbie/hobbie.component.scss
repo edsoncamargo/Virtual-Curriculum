@@ -1,23 +1,16 @@
-.hobbie-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.hobbie-item {
-  justify-self: flex-end;
-  margin-bottom: 10px;
-}
-
-.games,
-.soccer,
-.netflix {
-  margin-right: 10px;
-}
-
 .hobbie {
-  width: 50px;
-  height: 50px;
-  margin-top: 15px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 16px;
+
+    .hobbie__item {
+      width: 50px;
+      height: 50px;
+    }
+  }
 }
