@@ -1,8 +1,8 @@
-# Virtual Curriculum
+# Curriculum Virtual
 
-![Virtual Curriculum Logo](./src/assets/images/icon.jpg)
+![Curriculum Virtual Logo](./src/assets/images/icon.jpg)
 
-**Virtual Curriculum** is a personal website built with Angular, serving as a digital representation of my professional journey. This virtual curriculum showcases information about me, my skills, hobbies, experiences, and how to get in touch. The landing page also serves as an exercise in applying Flexbox layout techniques for creating a responsive and flexible web design.
+**Curriculum Virtual** is a personal website built with Angular, serving as a digital representation of my professional journey. This virtual curriculum showcases information about me, my skills, hobbies, experiences, and how to get in touch. The landing page also serves as an exercise in applying Flexbox layout techniques for creating a responsive and flexible web design.
 
 ## Technology
 
@@ -32,7 +32,7 @@ The "Skills & Expertise" section highlights my key skills and areas of expertise
 
 In the "Work Experience" section, you'll find a detailed overview of my professional journey, work experiences, and notable projects. Learn about my career path and the contributions I've made along the way.
 
-## How to View My Virtual Curriculum
+## How to View My Curriculum Virtual
 
 To view this virtual curriculum locally, follow these steps:
 
@@ -70,4 +70,4 @@ This project is licensed under the [MIT LECINSE](./LICENSE).
 - Name: Edson Camargo Menezes
 - Email: contact@edsoncamargo.dev
 
-Explore my virtual curriculum and discover my professional journey 🚀
+Explore my curriculum virtual and discover my professional journey 🚀
