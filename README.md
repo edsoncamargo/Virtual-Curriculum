@@ -2,7 +2,7 @@
 
 ![Curriculum Virtual Logo](./src/assets/images/icon.jpg)
 
-**Curriculum Virtual** is a personal website built with Angular, serving as a digital representation of my professional journey. This virtual curriculum showcases information about me, my skills, hobbies, experiences, and how to get in touch. The landing page also serves as an exercise in applying Flexbox layout techniques for creating a responsive and flexible web design.
+**Curriculum Virtual** is a personal website built with Angular, serving as a digital representation of my professional journey. This curriculum virtual showcases information about me, my skills, hobbies, experiences, and how to get in touch. The landing page also serves as an exercise in applying Flexbox layout techniques for creating a responsive and flexible web design.
 
 ## Technology
 
@@ -34,7 +34,7 @@ In the "Work Experience" section, you'll find a detailed overview of my professi
 
 ## How to View My Curriculum Virtual
 
-To view this virtual curriculum locally, follow these steps:
+To view this curriculum virtual locally, follow these steps:
 
 1. Clone the repository:
 
@@ -55,7 +55,7 @@ To view this virtual curriculum locally, follow these steps:
    ng serve
    ```
 
-4. Open your web browser and navigate to http://localhost:4200 to explore the virtual curriculum.
+4. Open your web browser and navigate to http://localhost:4200 to explore the curriculum virtual.
 
 ## Contribution
 
