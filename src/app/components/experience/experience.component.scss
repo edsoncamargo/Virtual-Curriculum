@@ -1,5 +1,5 @@
 .experiences {
-  background: var(--color-primary-regular);
+  background: var(--ec-color-primary-regular);
 
   .experience-container {
     display: flex;
@@ -7,10 +7,10 @@
     flex-wrap: wrap;
     padding: 10px;
     margin-bottom: 10px;
-    border-top: 8px solid var(--color-primary);
-    border-left: 2px solid var(--color-primary);
-    border-right: 2px solid var(--color-primary);
-    border-bottom: 2px solid var(--color-primary);
+    border-top: 8px solid var(--ec-color-primary);
+    border-left: 2px solid var(--ec-color-primary);
+    border-right: 2px solid var(--ec-color-primary);
+    border-bottom: 2px solid var(--ec-color-primary);
 
     .experience-title-container {
       width: calc(100% + 8px);

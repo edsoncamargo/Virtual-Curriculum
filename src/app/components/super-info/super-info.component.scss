@@ -5,8 +5,8 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 16px;
-  background: var(--color-primary-medium);
-  color: var(--color-neutral-100);
+  background: var(--ec-color-primary-medium);
+  color: var(--ec-color-neutral-100);
   margin: 0 auto;
   padding: 24px;
 
@@ -27,7 +27,7 @@
       position: absolute;
       left: 0;
       bottom: -8px;
-      background-color: var(--color-neutral-100);
+      background-color: var(--ec-color-neutral-100);
       transition: all ease-in-out 0.3s;
     }
 

@@ -1,5 +1,5 @@
 .navbar {
-  background: var(--color-primary-regular);
+  background: var(--ec-color-primary-regular);
   box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
 
   &__options {
@@ -57,7 +57,7 @@
               width: 0%;
               position: absolute;
               bottom: 4px;
-              background-color: var(--color-neutral-100);
+              background-color: var(--ec-color-neutral-100);
               transition: all ease-in-out 0.3s;
             }
 

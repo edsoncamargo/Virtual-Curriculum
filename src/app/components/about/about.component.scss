@@ -30,7 +30,7 @@
         line-height: 1.4;
         text-align: justify;
         margin-bottom: 1em;
-        color: var(--color-neutral-100);
+        color: var(--ec-color-neutral-100);
 
         &:last-child {
           margin-bottom: 0;
@@ -46,11 +46,11 @@
 
       .about__content__img {
         &__me {
-          border-top: 8px solid var(--color-primary);
+          border-top: 8px solid var(--ec-color-primary);
         }
 
         &__logo {
-          border-top: 8px solid var(--color-primary-regular);
+          border-top: 8px solid var(--ec-color-primary-regular);
         }
       }
     }

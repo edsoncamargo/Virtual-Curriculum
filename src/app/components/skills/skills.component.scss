@@ -12,7 +12,7 @@
 
       h2 {
         padding: 60px 20px;
-        background: var(--color-primary-dark);
+        background: var(--ec-color-primary-dark);
         margin: 0;
       }
 
@@ -23,16 +23,16 @@
       }
 
       &--primary-skill {
-        border-top: 8px solid var(--color-primary-skill);
+        border-top: 8px solid var(--ec-color-primary-skill);
         margin-top: 0px;
       }
 
       &--secondary-skill {
-        border-top: 8px solid var(--color-secondary-skill);
+        border-top: 8px solid var(--ec-color-secondary-skill);
       }
 
       &--tertiary-skill {
-        border-top: 8px solid var(--color-tertiary-skill);
+        border-top: 8px solid var(--ec-color-tertiary-skill);
       }
     }
   }
