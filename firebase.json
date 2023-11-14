@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/virtualcurriculum",
+    "public": "dist/curriculum-virtual",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
   }
 }

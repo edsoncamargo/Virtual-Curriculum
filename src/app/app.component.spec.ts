@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'VirtualCurriculum'`, () => {
+  it(`should have as title 'CurriculumVirtual'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('VirtualCurriculum');
+    expect(app.title).toEqual('CurriculumVirtual');
   });
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to VirtualCurriculum!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to CurriculumVirtual!');
   });
 });
