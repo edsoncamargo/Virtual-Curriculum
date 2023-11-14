@@ -9,6 +9,10 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { HobbieComponent } from './components/hobbie/hobbie.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { LpComponent } from './pages/lp/lp.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { AppRoutingModule } from './app-routing.module';
+import { CommonModule, HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -19,12 +23,16 @@ import { FooterComponent } from './components/footer/footer.component';
     SkillsComponent,
     ExperienceComponent,
     HobbieComponent,
-    FooterComponent
+    FooterComponent,
+    LpComponent,
+    NotFoundComponent
   ],
   imports: [
-    BrowserModule
+    CommonModule,
+    BrowserModule,
+    AppRoutingModule
   ],
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
