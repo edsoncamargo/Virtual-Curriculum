@@ -1,12 +1,17 @@
 .experiences {
-  background: var(--ec-color-primary-regular);
+  background-color: var(--ec-color-primary-regular);
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
 
   .experience-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 10px;
-    margin-bottom: 10px;
     border-top: 8px solid var(--ec-color-primary);
     border-left: 2px solid var(--ec-color-primary);
     border-right: 2px solid var(--ec-color-primary);
