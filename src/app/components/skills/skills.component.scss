@@ -1,14 +1,16 @@
 .skills {
-  width: calc(100% + 16px);
+  width: 100%;
 
   &__items {
     display: flex;
     flex-wrap: wrap;
+    gap: 16px;
 
     &__item {
       flex: 1 1 175px;
       align-self: center;
-      margin: 16px 16px 16px 0px;
+      gap: 24px;
+      margin-bottom: 0px;
 
       h2 {
         padding: 60px 20px;
