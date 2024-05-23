@@ -39,8 +39,8 @@ To view this curriculum virtual locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/edsoncamargo/CurriculumVirtual
-   cd your-path/CurriculumVirtual
+   git clone https://github.com/edsoncamargo/curriculum-virtual.git
+   cd your-path/curriculum-virtual
    ```
 
 2. Install the dependencies:
